@@ -1,0 +1,19 @@
+{
+  "name": "stud",
+  "version": "1.0.0",
+  "description": "student chaincode",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "engine-strict": true,
+  "author": "Vijay",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "^2.0.0",
+    "fabric-shim": "^2.0.0"
+  }
+}
